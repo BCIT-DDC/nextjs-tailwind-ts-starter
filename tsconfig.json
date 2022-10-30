@@ -5,15 +5,7 @@
     "rootDir": "./",                         
     "baseUrl": "./",
     "paths": {
-      "@app/*": ["src/app/*"],
-      "@utils/*": ["src/utils/*"], 
-      "@config/*": ["src/config/*"], 
-      "@content/*": ["src/content/*"], 
-      
-        
-      "@services/*": ["src/services/*"],                               
-      "@components/*": ["src/components/*"], 
-      "@interfaces/*": ["src/interfaces/*"],  
+      "@/*": ["src/*"] 
     },
     "allowJs": true,
     "skipLibCheck": true,
